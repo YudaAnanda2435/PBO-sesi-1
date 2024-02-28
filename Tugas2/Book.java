@@ -5,14 +5,38 @@ import java.util.Scanner;
 public class Book {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Books book = new Books("Yuda", "Laskar Pelangi", 90000.00, 1);
+        Books bookA = new Books("Yuda", "Laskar Pelangi", 20000.00, 1);
+        Books bookB = new Books("Nina", "Nenek Kebayan", 100000.00, 1);
+        Books bookC = new Books("Rani", "Ayahku Pahlawanku", 300000.00, 1);
+        Books bookD = new Books("Nia", "Raksasa Naik Hati", 150000.00, 1);
 
-        String informasi = book.infromasi();
-        System.out.println("\nInformasi buku " + informasi);
+        String informasiA = bookA.infromasi();
+        System.out.println("\nInformasi buku " + informasiA);
+
+        String informasiB = bookB.infromasi();
+        System.out.println("\nInformasi buku " + informasiB);
+
+        String informasiC = bookC.infromasi();
+        System.out.println("\nInformasi buku " + informasiC);
+
+        String informasiD = bookD.infromasi();
+        System.out.println("\nInformasi buku " + informasiD);
 
         System.out.print("Masukkan jumlah buku yang ingin dibeli: ");
-        int jumlahBuku = scanner.nextInt();
-        double totalPrice = book.calculateBooks(jumlahBuku);
+        int banyakBukuA = scanner.nextInt();
+
+        System.out.print("Masukkan jumlah buku yang ingin dibeli: ");
+        int banyakBukuB = scanner.nextInt();
+        
+        System.out.print("Masukkan jumlah buku yang ingin dibeli: ");
+        int banyakBukuC = scanner.nextInt();
+
+        System.out.print("Masukkan jumlah buku yang ingin dibeli: ");
+        int banyakBukuD = scanner.nextInt();
+
+        double totalPrice = bookA.calculateBooks(banyakBukuA) + bookB.calculateBooks(banyakBukuB)
+                + bookC.calculateBooks(banyakBukuC)
+                + bookD.calculateBooks(banyakBukuD);
         System.out.println("Total pembelian buku : Rp." + totalPrice + '\n');
 
         scanner.close();
