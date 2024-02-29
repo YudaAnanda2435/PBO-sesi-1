@@ -24,9 +24,9 @@ public class KelasSegitiga {
 
     public static void main(String[] args) {
       
-        KelasSegitiga segitigaA = new KelasSegitiga(8, 12);
+        KelasSegitiga segitiga = new KelasSegitiga(8, 12);
     
-        System.out.println("Luas Segitiga A: " + segitigaA.getLuas());
+        System.out.println("Luas Segitiga: " + segitiga.getLuas());
 
        
     }

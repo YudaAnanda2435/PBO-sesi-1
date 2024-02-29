@@ -8,7 +8,7 @@ public class Book {
         Books bookA = new Books("Yuda", "Laskar Pelangi", 20000.00, 1);
         Books bookB = new Books("Nina", "Nenek Kebayan", 100000.00, 1);
         Books bookC = new Books("Rani", "Ayahku Pahlawanku", 300000.00, 1);
-        Books bookD = new Books("Nia", "Raksasa Naik Hati", 150000.00, 1);
+        Books bookD = new Books("Nia", "Raksasa Naik Haji", 150000.00, 1);
 
         String informasiA = bookA.infromasi();
         System.out.println("\nInformasi buku " + informasiA);
@@ -22,16 +22,16 @@ public class Book {
         String informasiD = bookD.infromasi();
         System.out.println("\nInformasi buku " + informasiD);
 
-        System.out.print("Masukkan jumlah buku yang ingin dibeli: ");
+        System.out.print("Masukkan jumlah buku (Laskar Pelangi) yang ingin dibeli: ");
         int banyakBukuA = scanner.nextInt();
 
-        System.out.print("Masukkan jumlah buku yang ingin dibeli: ");
+        System.out.print("Masukkan jumlah buku (Nenek Kebayan) yang ingin dibeli: ");
         int banyakBukuB = scanner.nextInt();
         
-        System.out.print("Masukkan jumlah buku yang ingin dibeli: ");
+        System.out.print("Masukkan jumlah buku (Ayahku Pahlawanku) yang ingin dibeli: ");
         int banyakBukuC = scanner.nextInt();
 
-        System.out.print("Masukkan jumlah buku yang ingin dibeli: ");
+        System.out.print("Masukkan jumlah buku (Raksasa Naik Haji) yang ingin dibeli: ");
         int banyakBukuD = scanner.nextInt();
 
         double totalPrice = bookA.calculateBooks(banyakBukuA) + bookB.calculateBooks(banyakBukuB)
