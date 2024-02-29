@@ -6,9 +6,9 @@ public class Book {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Books bookA = new Books("Yuda", "Laskar Pelangi", 20000.00, 1);
-        Books bookB = new Books("Nina", "Nenek Kebayan", 100000.00, 1);
-        Books bookC = new Books("Rani", "Ayahku Pahlawanku", 300000.00, 1);
-        Books bookD = new Books("Nia", "Raksasa Naik Haji", 150000.00, 1);
+        Books bookB = new Books("Nina", "Nenek Kebayan", 100000.00, 2);
+        Books bookC = new Books("Rani", "Ayahku Pahlawanku", 300000.00, 3);
+        Books bookD = new Books("Nia", "Raksasa Naik Haji", 150000.00, 4);
 
         String informasiA = bookA.infromasi();
         System.out.println("\nInformasi buku " + informasiA);
