@@ -1,17 +1,18 @@
 package Tugas3.bangundatar.segitiga;
+
 public class SamaKaki extends BangunDatar {
-        protected double alas;
-        protected double tinggi;
-        protected double sisi1;
-        protected double sisi2;
-        protected double sisi3;
+    protected double alas;
+    protected double tinggi;
 
-        public void hitungLuas() {
-            super.luas = 0.5 * this.alas * this.tinggi;
-        }
+    // Konstruktor, setter, getter, dll. dapat ditambahkan sesuai kebutuhan
 
-        public void hitungKeliling() {
-            super.keliling = this.sisi1 + this.sisi2 + this.sisi3;
-        }
-        }
-    
+    public void hitungKeliling() {
+        // Menghitung keliling dengan menggunakan 'super'
+        super.keliling = 2 * this.alas + tinggi;
+    }
+
+    public void hitungLuas() {
+        // Menghitung luas segitiga sama kaki dengan rumus luas segitiga biasa
+        super.luas = 0.5 * this.alas * this.tinggi;
+    }
+}

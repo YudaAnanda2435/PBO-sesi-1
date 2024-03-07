@@ -11,7 +11,6 @@ public class SikuSiku extends BangunDatar {
     }
 
     public void hitungLuas() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'hitungLuas'");
+         super.luas = 0.5 * this.alas * this.tinggi;
     }
 }

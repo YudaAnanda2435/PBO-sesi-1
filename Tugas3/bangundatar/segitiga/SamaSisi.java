@@ -8,7 +8,6 @@ public class SamaSisi extends BangunDatar {
     }
 
     public void hitungLuas() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'hitungLuas'");
+        super.luas = (Math.sqrt(3) / 4) * Math.pow(this.sisi, 2);
     }
 }

@@ -14,8 +14,8 @@ public class Sembarang extends BangunDatar {
     }
 
     public void hitungLuas() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'hitungLuas'");
+        double s = (this.sisi1 + this.sisi2 + this.sisi3) / 2;
+        super.luas = Math.sqrt(s * (s - this.sisi1) * (s - this.sisi2) * (s - this.sisi3));
     }
 }
 
