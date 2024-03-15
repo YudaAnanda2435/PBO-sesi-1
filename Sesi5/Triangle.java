@@ -33,8 +33,8 @@ public class Triangle extends Shape {
         System.out.println("Triangle " + name + " info");
         System.out.println(" area: " + super.area);
         System.out.println(" with sides: " + side1);
-        System.out.println(", " + side2);
-        System.out.println(", " + side3);
+        System.out.println(" sides 2 " + side2);
+        System.out.println(" sides 3 " + side3);
         System.out.println();
     }
 
