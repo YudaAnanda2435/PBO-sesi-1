@@ -1,13 +1,16 @@
 package Tugas4;
 
-public class persegi extends Parentclass {
-    protected double sisi;
-
-    public void hitungKeliling() {
-        super.keliling = 4 * sisi;
+public class Persegi extends BangunDatar{
+    public Persegi(double sisi){
+        super.setNama("Persegi");
+        this.hitungLuas(sisi);
+        this.hitungKeliling(sisi);
+    }
+    public void hitungLuas(double sisi) {
+        super.luas = sisi * sisi;
     }
 
-    public void hitungLuas() {
-        super.luas = sisi * sisi;
+    public void hitungKeliling(double sisi) {
+        super.keliling = 4 * sisi;
     }
 }
