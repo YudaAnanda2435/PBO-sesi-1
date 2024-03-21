@@ -12,7 +12,7 @@ public class Modier {
     }
 }
         // Menggunakan kelas Segitiga (kelas private)
-        // Ini akan menyebabkan error karena kelas Segitiga tidak bisa diakses dari luar paketnya
+        // akan error karena kelas Segitiga tidak bisa diakses dari luar paketnya
 //         try {
 //             Segitiga segitiga = new Segitiga();
 //             double sisiSegitiga = 5.0;
