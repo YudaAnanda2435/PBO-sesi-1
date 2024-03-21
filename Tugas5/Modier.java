@@ -1,7 +1,7 @@
 // Main.java
 package Tugas5;
 
-public class Main {
+public class Modier {
     public static void main(String[] args) {
 
         // Menggunakan kelas Persegi (kelas public)
