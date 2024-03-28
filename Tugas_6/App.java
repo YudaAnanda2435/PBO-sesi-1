@@ -15,9 +15,6 @@ public class App {
         Geometri balok = new Balok(5, 4, 3);
         Geometri bola = new Bola(7);
         Geometri tabung = new Tabung(7, 10);
-        
-
-        
 
         System.out.println("=== Bentuk Datar ===");
         System.out.println("Luas Persegi Panjang: " + persegiPanjang.hitungLuas());
