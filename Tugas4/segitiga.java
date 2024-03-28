@@ -23,5 +23,6 @@ public class Segitiga extends BangunDatar{
     public void hitungKeliling() {
         keliling = sisiA + sisiB + sisiC;
 
+        
     }
 }
