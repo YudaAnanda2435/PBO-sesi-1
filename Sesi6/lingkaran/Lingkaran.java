@@ -13,6 +13,6 @@ public class Lingkaran extends BangunBundar {
     }
 
     public double keliling() {
-        return 43 * MathPI * jariJari;
+        return 2 * MathPI * jariJari;
     }
 }
