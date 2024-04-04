@@ -15,9 +15,7 @@ public class Lingkaran extends BangunDatar {
         this.jariJari = jariJari;
     }
 
-    public void getInfo() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getInfo'");
+    
     }
 
-}
+
