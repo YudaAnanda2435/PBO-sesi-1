@@ -18,8 +18,12 @@ public class TruthOrDare {
     public int askQuestion(int themeChoice) {
         Random random = new Random();
         @SuppressWarnings("unused")
-        int randomNumber = random.nextInt(3); // Generates random number between 0 and 2
+        int pertanyaan1 = questions[0].nextLine(0); // Generates random number between 0 and 2
         Question question = questions[themeChoice - 1];
+        System.out.println("Pertanyaan untuk tema '" + question.getTheme() + "':");
+        for (String option : question.getOptions()) {
+            System.out.println(option);
+        }
         System.out.println("Pertanyaan untuk tema '" + question.getTheme() + "':");
         for (String option : question.getOptions()) {
             System.out.println(option);

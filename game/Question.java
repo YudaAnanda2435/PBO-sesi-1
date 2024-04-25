@@ -2,6 +2,7 @@
 package game;
 
 public class Question {
+    public static final String System = null;
     private String theme;
     private String[] options;
     private String correctAnswer;

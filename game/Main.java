@@ -13,7 +13,7 @@ public class Main {
             System.out.println("Silahkan pilih TRUTH or DARE?");
             String choice = scanner.nextLine().toUpperCase();
             if (choice.equals("DARE")) {
-                System.out.println("Tantangan anda adalah memilih TRUTH");
+                System.out.println("Ohhh tidak bisa, anda harus memilih TRUTH");
                 continue;
             } else if (choice.equals("TRUTH")) {
                 break;
